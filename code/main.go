@@ -7,8 +7,9 @@ import (
 	"os"
 	"runtime"
 
+	"scaffolding/code/logging"
+
 	"github.com/jkstack/anet"
-	"gitlab.jkservice.org/smartagent/logging"
 )
 
 var (

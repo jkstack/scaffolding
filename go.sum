@@ -4,5 +4,3 @@ github.com/jkstack/anet v0.0.0-20220506085810-7c76f2335478 h1:YQk34T25p3BlNjfQ9H
 github.com/jkstack/anet v0.0.0-20220506085810-7c76f2335478/go.mod h1:zpkHPpKpEdaNNLLLabhWdyjRcczZYwPLocie5ys/RTc=
 github.com/lwch/runtime v0.0.0-20190520054850-8c97e19e0c6d h1:Xg+zzPtvX22DaoJD5Bp0tqPdB8gn5WypghIJ4fluqiQ=
 github.com/lwch/runtime v0.0.0-20190520054850-8c97e19e0c6d/go.mod h1:uEt0zu1MDC7WnVvodPBGSYAD/KMKk0v36xE8UE5veM8=
-gitlab.jkservice.org/smartagent/logging v0.0.0-20211026094724-85ca91daacb8 h1:HlR7PR0geL4F5IvErtJVId/E5bbxYlt/kVXsWiswEWg=
-gitlab.jkservice.org/smartagent/logging v0.0.0-20211026094724-85ca91daacb8/go.mod h1:EcV+iCormoUxm2cxe6SQ2TfY+fj2eml1WFLAvEvJbCQ=

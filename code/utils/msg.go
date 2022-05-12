@@ -9,6 +9,7 @@ import (
 	"github.com/jkstack/anet"
 )
 
+// WriteMessage 输出msg消息给smartagent
 func WriteMessage(msg anet.Msg) {
 	data, _ := json.Marshal(msg)
 	buf := make([]byte, len(data)+8)
