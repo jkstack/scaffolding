@@ -1,0 +1,2 @@
+# scaffolding
+smartagent plugin scaffolding
