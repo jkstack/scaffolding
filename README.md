@@ -1,6 +1,6 @@
 # scaffolding
 
-[![scaffolding](https://github.com/jkstack/scaffolding/actions/workflows/release.yml/badge.svg)](https://github.com/jkstack/scaffolding/actions/workflows/release.yml)
+[![scaffolding](https://github.com/jkstack/scaffolding/actions/workflows/test.yml/badge.svg)](https://github.com/jkstack/scaffolding/actions/workflows/test.yml)
 [![go-mod](https://img.shields.io/github/go-mod/go-version/jkstack/scaffolding)](https://github.com/jkstack/scaffolding)
 [![license](https://img.shields.io/github/license/jkstack/scaffolding)](https://www.gnu.org/licenses/agpl-3.0.txt)
 [![platform](https://img.shields.io/badge/platform-linux%20%7C%20windows-lightgrey.svg)](https://github.com/jkstack/scaffolding)
