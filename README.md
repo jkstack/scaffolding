@@ -1,8 +1,13 @@
 # scaffolding
 
+[![scaffolding](https://github.com/jkstack/scaffolding/actions/workflows/release.yml/badge.svg)](https://github.com/jkstack/scaffolding/actions/workflows/release.yml)
+[![go-mod](https://img.shields.io/github/go-mod/go-version/jkstack/scaffolding)](https://github.com/jkstack/scaffolding)
+[![license](https://img.shields.io/github/license/jkstack/scaffolding)](https://www.gnu.org/licenses/agpl-3.0.txt)
+[![platform](https://img.shields.io/badge/platform-linux%20%7C%20windows-lightgrey.svg)](https://github.com/jkstack/scaffolding)
+
 smartagent插件脚手架项目
 
-## 使用方式
+## 开发方式
 
 1. 拉取当前项目
 
