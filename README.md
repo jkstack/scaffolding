@@ -10,7 +10,7 @@ smartagent插件脚手架项目
 2. 删除.git目录
 
         rm -fr .git
-3. 按gitlab的操作手册，初始化git仓库
+3. 按github的操作手册，初始化git仓库
 
         git init
         git remote add origin <项目地址>
