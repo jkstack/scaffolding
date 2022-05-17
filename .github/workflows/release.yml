@@ -2,7 +2,7 @@ name: release
 
 on:
   push:
-    branches: [ release ]
+    tags: [ v*.*.* ]
 
 jobs:
 
@@ -18,5 +18,3 @@ jobs:
         uses: jkstack/smartagent-release@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          plugin: true
