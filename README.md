@@ -51,4 +51,4 @@ smartagent插件脚手架项目
         curl http://192.168.3.147:13080/plugin/reload
 4. 调用server的/scaffolding/foo接口触发该插件
 
-        curl http://192.168.3.147:13080/scaffolding/foo?id=agentid
+        curl http://192.168.3.147:13080/scaffolding/foo?id=<agentid>
