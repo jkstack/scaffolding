@@ -12,7 +12,7 @@ smartagent插件脚手架项目
 ![插件原理](imgs/%E6%8F%92%E4%BB%B6%E5%8E%9F%E7%90%86.png)
 
 1. 插件自身的日志通过stderr输出，输出过程中无需输出时间戳，agent会在每一行前增加日志捕获时间，日志输出可通过封装好的logging包进行输出
-2. 插件需要返回的数据通过stdout进行输出，允许返回多次数据，输出格式如下，可通过utils包中的WriteMessage
+2. 插件需要返回的数据通过stdout进行输出，允许返回多次数据，输出格式如下，可通过utils包中的WriteMessage进行输出
 
         <length(4字节)><crc32(4字节)><payload>
 
