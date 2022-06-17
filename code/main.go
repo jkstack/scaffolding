@@ -8,6 +8,7 @@ import (
 	"runtime"
 
 	"scaffolding/code/logging"
+	"scaffolding/code/utils"
 
 	"github.com/jkstack/anet"
 )
@@ -72,5 +73,11 @@ func main() {
 		}
 	}()
 
-	_ = msg
+	if msg.Type == anet.TypeFoo {
+		logging.Info("foo message received")
+		var ret anet.Msg
+		ret.Type = anet.TypeBar
+		ret.TaskID = msg.TaskID
+		utils.WriteMessage(ret)
+	}
 }

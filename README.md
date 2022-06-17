@@ -38,3 +38,17 @@ smartagent插件脚手架项目
     - logging.Info: 输出标准日志
     - logging.Error: 输出错误日志，其中会包含出错时的调用堆栈信息
     - logging.Flush: 将缓存中的日志全部输出
+
+## 如何调试
+
+1. 使用make命令编译插件，编译结果将会输出到release目录下
+2. 将release/1.0.0目录上传到server的plugins目录下，目录结构如下
+
+![plugins](imgs/plugins.png)
+
+3. 调用server的/plugin/reload接口加载新增插件
+
+        curl http://192.168.3.147:13080/plugin/reload
+4. 调用server的/scaffolding/foo接口触发该插件
+
+        curl http://192.168.3.147:13080/scaffolding/foo
