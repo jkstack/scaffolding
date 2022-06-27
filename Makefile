@@ -20,6 +20,7 @@ LDFLAGS="-X 'main.gitBranch=$(BRANCH)' \
 all: clean prepare linux.amd64 linux.386 windows.amd64 windows.386
 	cp CHANGELOG.md $(OUTDIR)/CHANGELOG.md
 	cp manifest.json $(OUTDIR)/$(VERSION)/manifest.json
+	sed -i "s|#VERSION|$(VERSION)|g" $(OUTDIR)/$(VERSION)/manifest.json
 version:
 	@echo $(VERSION)
 linux.amd64:

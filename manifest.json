@@ -1,6 +1,6 @@
 {
     "name": "scaffolding",
-    "version": "1.0.0",
+    "version": "#VERSION",
     "supported": [
         {
             "os": "linux", "arch": "x86_64",
